@@ -26,7 +26,7 @@ public class Run {
         // request antialising
         System.setProperty("j3d.implicitAntialiasing", "true");
         // create Simbad instance with given environment
-        Simbad frame = new Simbad(new MyEnv(20,20,map,0,0,19,19), false);
+        Simbad frame = new Simbad(new MyEnv(20,20,map,0,0,19,13), false);
 
 
     }
